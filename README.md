@@ -18,19 +18,17 @@ git clone https://github.com/Marius203/Top10Movies.git
 cd Top10Movies
 ```
 
-!! IMPORTANT !!
-You need to type something here:
+2. Set up secret key
 ```sh
-app.config['SECRET_KEY'] = ''  
-```
-Any string will do  
+app.config['SECRET_KEY'] = ''  # Any string will do
+```  
 
-2. Set up environment variables
+3. Set up environment variables
 ```sh
 $env:MOVIES_API_KEY = "Your Key"
 ```
 
-3. Run the application
+4. Run the application
 ```sh
 py main.py
 ```
