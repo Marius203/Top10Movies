@@ -4,7 +4,9 @@ This project is a Flask web application that allows users to manage a list of th
 
 ## Requirements
 
-To run this project, you need to have Python installed.  You will also need to install the required Python packages.  You can install them using the following command:
+To run this project, you need to have Python installed.  
+You will also need to install the required Python packages.  
+You can install them using the following command:
 
 ```sh
 pip install Flask Flask-Bootstrap Flask-SQLAlchemy Flask-WTF requests
@@ -18,14 +20,14 @@ cd Top10Movies
 
 2.Set up environment variables
 ```sh
-export MOVIES_API_KEY="Your Key"
+$env:MOVIES_API_KEY = "Your Key"
 ```
 
 3.run the application
 ```sh
 py main.py
 ```
-The home page will display the list of top 10 movies.
-Use the "Add Movie" button to search for and add a new movie.
-Use the "Edit" button to rate and review a movie.
-Use the "Delete" button to remove a movie from the list.
+The home page will display the list of top 10 movies.  
+Use the "Add Movie" button to search for and add a new movie.  
+Use the "Edit" button to rate and review a movie.  
+Use the "Delete" button to remove a movie from the list.  
