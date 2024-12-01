@@ -18,9 +18,11 @@ git clone https://github.com/Marius203/Top10Movies.git
 cd Top10Movies
 ```
 
-!!IMPORTANT!!
-You need to type something here:  
+!! IMPORTANT !!
+You need to type something here:
+```sh
 app.config['SECRET_KEY'] = ''  
+```
 Any string will do  
 
 2. Set up environment variables
