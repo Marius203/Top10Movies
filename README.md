@@ -12,18 +12,23 @@ You can install them using the following command:
 pip install Flask Flask-Bootstrap Flask-SQLAlchemy Flask-WTF requests
 ```
 
-1.Clone the repository
+1. Clone the repository
 ```sh
 git clone https://github.com/Marius203/Top10Movies.git
 cd Top10Movies
 ```
 
-2.Set up environment variables
+!!IMPORTANT!!
+You need to type something here:  
+app.config['SECRET_KEY'] = ''  
+Any string will do  
+
+2. Set up environment variables
 ```sh
 $env:MOVIES_API_KEY = "Your Key"
 ```
 
-3.run the application
+3. Run the application
 ```sh
 py main.py
 ```
