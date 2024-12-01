@@ -9,12 +9,7 @@ from wtforms.validators import DataRequired
 import requests
 import os
 
-# make a movies database account https://developer.themoviedb.org/reference/search-movie
-# add it to the environment variables using
-# $env:MOVIES_API_KEY = "Your Key" --> powershell terminal
-# os.getenv('MOVIES_API_KEY') --> this is how you access it in your code
-
-MOVIE_DB_API_KEY = os.getenv('MOVIES_API_KEY')
+MOVIE_DB_API_KEY = "your key"
 MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
