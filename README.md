@@ -23,10 +23,10 @@ cd Top10Movies
 app.config['SECRET_KEY'] = ''  # Any string will do
 ```  
 
-3. Set up environment variables  
+3. Set up API key 
 In order to do this you will need to make an account here: https://developer.themoviedb.org/reference/search-movie  
 ```sh
-$env:MOVIES_API_KEY = "Your Key"
+MOVIE_DB_API_KEY = "your key"
 ```
 
 4. Run the application
